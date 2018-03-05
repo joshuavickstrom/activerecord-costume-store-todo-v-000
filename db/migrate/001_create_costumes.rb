@@ -1,9 +1,8 @@
 class CreateCostumes < ActiveRecord::Migration[5.1] # Create a class and inherit from ActiveRecord::Migration
 
-  create_table :costumes do |t|
-  end
-
   def change
+    create_table :costumes do |t|
+    end
     add_column :costumes, :name, :string
     add_column :costumes, :price, :integer
     add_column :costumes, :image_url, :string
