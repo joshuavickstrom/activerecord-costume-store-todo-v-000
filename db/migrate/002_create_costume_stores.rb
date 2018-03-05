@@ -1,14 +1,14 @@
 class CreateCostumeStores < ActiveRecord::Migration[5.1]
 
   def change
-    create_table :CostumeStore do |t|
+    create_table :costume_stores do |t|
     end
-    add_column :CostumeStore, :name, :string
-    add_column :CostumeStore, :location, :string
-    add_column :CostumeStore, :costume_inventory, :integer
-    add_column :CostumeStore, :employees, :integer
-    add_column :CostumeStore, :still_in_business, :boolean
-    add_column :CostumeStore, :opening_time, :string
-    add_column :CostumeStore, :closing_time, :string
+    add_column :costume_stores, :name, :string
+    add_column :costume_stores, :location, :string
+    add_column :costume_stores, :costume_inventory, :integer
+    add_column :costume_stores, :employees, :integer
+    add_column :costume_stores, :still_in_business, :boolean
+    add_column :costume_stores, :opening_time, :string
+    add_column :costume_stores, :closing_time, :string
   end
 end
