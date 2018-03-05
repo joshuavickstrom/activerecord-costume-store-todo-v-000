@@ -3,7 +3,7 @@ class CreateCostumes < ActiveRecord::Base # Create a class and inherit from Acti
 # By convention, the class name should match the part of the
 # file name after the number, so in this case:
 # 002_create_costumes.rb becomes class CreateCostumes
-def change 
+def change
   add_column :costumes, :name, :string
   add_column :costumes, :price, :integer
   add_column :costumes, :image_url, :string
