@@ -1,5 +1,7 @@
 class CreateCostumes < ActiveRecord::Base # Create a class and inherit from ActiveRecord::Migration
 
+  create_table :costumes do |t|
+  end
 # By convention, the class name should match the part of the
 # file name after the number, so in this case:
 # 002_create_costumes.rb becomes class CreateCostumes
