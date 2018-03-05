@@ -1,2 +1,2 @@
-class CostumeStore < ActiveRecord::Base
+class CostumeStore < ActiveRecord::Migration[5.1]
 end# Create your costume_stores migration here
